@@ -12,7 +12,7 @@ import XCTest
 class TripServiceTests: XCTestCase {
     
     func test_should_throw_exception_when_user_is_not_logged_in(){
-        let tripService = TripService()
+        let tripService = TestabelTripService()
         let user = User()
         
         do {
