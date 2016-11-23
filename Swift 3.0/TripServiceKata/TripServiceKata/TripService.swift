@@ -13,7 +13,7 @@ class TripService
     func GetTripsByUser(_ user:User) throws -> [Trip]?
     {
         var tripList:[Trip]? = nil
-        let loggedUser = try! getLoggedInUser()
+        let loggedUser = try getLoggedInUser()
         
         var isFriend = false
         

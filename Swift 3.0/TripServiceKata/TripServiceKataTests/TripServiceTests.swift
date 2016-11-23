@@ -11,30 +11,15 @@ import XCTest
 
 class TripServiceTests: XCTestCase {
     
-    override func setUp() {
-        super.setUp()
-    }
-    
-    override func tearDown() {
-        super.tearDown()
-    }
-    
-    func testExample() {
-    }
-    
-    func testPerformanceExample() {
-        self.measure {
-            
-        }
-    }
-    
     func test_should_throw_exception_when_user_is_not_logged_in(){
         let tripService = TripService()
         let user = User()
+        
         do {
             try tripService.GetTripsByUser(user)
         } catch {
-            
+            XCTFail("Exception: \(error)")
+            return
         }
     }
     
