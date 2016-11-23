@@ -16,6 +16,7 @@
 		11500B1E1C7A825000945102 /* TripServiceKataErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11500B1D1C7A825000945102 /* TripServiceKataErrorType.swift */; };
 		11500B241C7A84CD00945102 /* TripServiceKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11500B231C7A84CD00945102 /* TripServiceKataTests.swift */; };
 		11500B251C7A864F00945102 /* TripServiceKata.h in Headers */ = {isa = PBXBuildFile; fileRef = 11500B211C7A83E100945102 /* TripServiceKata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C142A2D91DE4AD86006745D9 /* TripServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C142A2D81DE4AD86006745D9 /* TripServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		11500B1D1C7A825000945102 /* TripServiceKataErrorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripServiceKataErrorType.swift; sourceTree = "<group>"; };
 		11500B211C7A83E100945102 /* TripServiceKata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripServiceKata.h; sourceTree = "<group>"; };
 		11500B231C7A84CD00945102 /* TripServiceKataTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripServiceKataTests.swift; sourceTree = "<group>"; };
+		C142A2D81DE4AD86006745D9 /* TripServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 			children = (
 				11500B231C7A84CD00945102 /* TripServiceKataTests.swift */,
 				115009A01C7A816500945102 /* Info.plist */,
+				C142A2D81DE4AD86006745D9 /* TripServiceTests.swift */,
 			);
 			path = TripServiceKataTests;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C142A2D91DE4AD86006745D9 /* TripServiceTests.swift in Sources */,
 				11500B241C7A84CD00945102 /* TripServiceKataTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

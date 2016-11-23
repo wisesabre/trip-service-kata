@@ -13,7 +13,7 @@ class TripService
     func GetTripsByUser(_ user:User) throws -> [Trip]?
     {
         var tripList:[Trip]? = nil
-        let loggedUser = try! UserSession.sharedInstance.getLoggedUser()
+        let loggedUser = try! getLoggedInUser()
         
         var isFriend = false
         
@@ -32,5 +32,9 @@ class TripService
         else {
             throw TripServiceErrorType.userNotLoggedIn
         }
+    }
+    
+    internal func getLoggedInUser() throws -> User? {
+        return try UserSession.sharedInstance.getLoggedUser()
     }
 }
